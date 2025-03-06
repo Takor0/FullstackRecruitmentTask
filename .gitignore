@@ -1,2 +1,3 @@
-python/env
-typescript/node_modules
+venv
+typescript_task/node_modules
+django_task/db.sqlite3

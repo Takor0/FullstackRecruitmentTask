@@ -9,5 +9,8 @@
   },
   "devDependencies": {
     "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "tests": "ts-node src/test-user-manager.ts"
   }
 }
