@@ -56,7 +56,7 @@ export default class UserManager {
             this.users[index] = { ...this.users[index], ...updates };
         }
         else {
-            throw new Error('User not found');
+            throw new Error(`User with ID ${id} not found`);
         }
     }
 
@@ -68,7 +68,7 @@ export default class UserManager {
             this.users.splice(index, 1);
         }
         else {
-            throw new Error('User not found');
+            throw new Error(`User with ID ${id} not found`);
         }
     }
 
